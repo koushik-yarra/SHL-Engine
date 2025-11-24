@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/recommend"
+API_URL = "https://shl-engine.onrender.com/recommend"
 
 st.title("🔍 SHL GenAI Assessment Recommendation Engine")
 query = st.text_area("Enter your query:", height=120)
