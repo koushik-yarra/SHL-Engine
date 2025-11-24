@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+beautifulsoup4
+pandas
+openpyxl
+faiss-cpu
+numpy
+python-dotenv
+sentence-transformers
+google-cloud-aiplatform   # for Gemini (Vertex AI)
+google-auth
+httpx 
+streamlit
+python-dotenv
+google-generativeai
+

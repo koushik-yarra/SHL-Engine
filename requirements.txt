@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+faiss-cpu
+numpy
+pandas
+requests
+bs4
+python-dotenv
+google-generativeai
