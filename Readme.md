@@ -3,6 +3,12 @@
 
 AI-assisted tooling to scrape SHL’s public product catalog, clean the data, embed assessment descriptions with Gemini, index them in FAISS, and expose instant recommendations over a FastAPI + Streamlit UI. The search stack now also reranks the FAISS hits with Gemini 1.5 Flash for extra relevance.
 
+
+APP URL : https://shl-engine-csh9uft3382mqj8jcp4pvw.streamlit.app/
+
+Backend API_URL: https://web-production-30ff8.up.railway.app/docs#/default/recommend_recommend_post
+
+
 ---
 
 ## Key Features
