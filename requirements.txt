@@ -3,8 +3,9 @@ uvicorn
 faiss-cpu
 google-generativeai
 numpy
-pydantic
 python-dotenv
-pandas
+pydantic
 requests
 beautifulsoup4
+pandas
+openpyxl
