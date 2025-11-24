@@ -22,7 +22,7 @@ def embed_query(q: str):
     return np.array(resp["embedding"], dtype="float32")
 
 
-'''def search(query: str, top_k: int = 5):
+def search(query: str, top_k: int = 5):
     q_emb = embed_query(query)
     q_emb = np.expand_dims(q_emb, axis=0)
 
@@ -34,9 +34,9 @@ def embed_query(q: str):
             results.append(records[i])
 
     return results
-'''
+
 #  use this code if you want to rerank with LLM  for better answers
-def rerank_with_llm(query, results):
+'''def rerank_with_llm(query, results):
     prompt = f"""
     You are an SHL assessment expert. 
     Given this job description/query:
@@ -60,10 +60,10 @@ def rerank_with_llm(query, results):
         return [results[i] for i in sorted_idx]
     except:
         return results
-
+'''
 
 # and improve search with this
-def search(query: str, top_k: int = 5):
+'''def search(query: str, top_k: int = 5):
     q_emb = embed_query(query)
     q_emb = np.expand_dims(q_emb, axis=0)
 
@@ -75,3 +75,4 @@ def search(query: str, top_k: int = 5):
     results = rerank_with_llm(query, results)
 
     return results
+'''
