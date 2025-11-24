@@ -1,10 +1,10 @@
 fastapi
 uvicorn
-streamlit
 faiss-cpu
+google-generativeai
 numpy
+pydantic
+python-dotenv
 pandas
 requests
-bs4
-python-dotenv
-google-generativeai
+beautifulsoup4
